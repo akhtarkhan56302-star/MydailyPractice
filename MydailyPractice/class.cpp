@@ -28,4 +28,4 @@ int main(){
     s1.age=19;
     s1.marks=90;
     s1.display();
-}
+    
