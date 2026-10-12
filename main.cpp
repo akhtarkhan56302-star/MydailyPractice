@@ -1,19 +1,25 @@
 #include <iostream>
 using namespace std;
-class Studnet{
+class Student{
     public:
     string name;
     int age;
+    void getdata(){
+        cout<<"Enter name:";
+        cin>> name;
+        cout<<"Enter your age:";
+        cin>> age;
+    }
+    void display(){
+        cout<<"My name is :"<<name<<endl;
+        cout<<"My age is :"<<age<<endl;
+    }
 };
 int main(){
-Studnet s1;
-cout<<"enter name:";
-cin>>s1.name;
-cout<<"enter age:";
-cin>>s1.age;
-cout<<"Student Information:"<<endl;
-cout<<"Student Name is :"<<s1.name<<endl;
-cout<<"Student Age is :"<<s1.age<<endl;
+    Student s1;
+    s1.getdata();
+    s1.display();
+
 
 
 
