@@ -17,6 +17,18 @@ class Student{
         cout<<"My name is :"<<name<<endl;
         cout<<"My age is :"<<age<<endl;
         cout <<"My marks are :"<<marks<<endl;
+        if (marks>=90){
+            cout<<"your grade is A"<<endl;
+        }
+            else if(marks>=80){
+                cout <<"your grade is B"<<endl;
+            }
+            else if(marks>=70){
+                cout <<"your grade is C:"<<endl;
+
+        }
+        else 
+        cout<<"your are failed "<<endl;
     }
 };
 int main(){
